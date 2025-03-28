@@ -1,0 +1,30 @@
+/* components/alumnos/alumnos.css */
+.alumnos-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    border: 1px solid #dee2e6;
+}
+
+.lista-alumnos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-alumnos li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acciones-alumno {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-agregar-alumno {
+    margin-top: 1rem;
+}

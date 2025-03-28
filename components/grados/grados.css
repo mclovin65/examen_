@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para el cuadro de grados */
+.grados-container {
+    border: 2px solid #333; /* Borde negro */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/* Estilo para el campo select de grados */
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #333; /* Borde negro */
+    border-radius: 4px;
+    margin: 10px 0;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #e9f5ff;
+}
+
+/* Estilo para el mensaje en caso de no encontrar grados */
+p {
+    font-size: 18px;
+    color: #ff4747;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo del botón "Ver Alumnos" */
+#ver-alumnos-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#ver-alumnos-btn:hover {
+    background-color: #0056b3;
+}
+.grado{
+  
+    margin: 10px;
+    border-radius: 10px;
+}
